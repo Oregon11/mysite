@@ -1,0 +1,107 @@
+@media screen and (max-width: 768px)  {
+  .container {
+    width: 90%;
+    padding: 0 5%;
+  }
+  header nav {
+    display: none;
+  }
+  .header-img {
+    height: 50px;
+  }
+  header {
+    position: relative;
+    height: 50px;
+  }
+  header .fa-bars {
+    display: block;
+    float: right;
+    font-size: 40px;
+    margin: 5px 0;
+  }
+
+  #mainvisual {
+    background-image: url(img/code.png);
+  }
+  #mainvisual h1 {
+    font-size: 40px;
+  }
+  #mainvisual p {
+    font-size: 18px;
+  }
+
+  .group {
+    width: 90%;
+  }
+
+
+  .bg {
+    float: none;
+    margin: 0 auto 10px;
+    max-width: 100%;
+  }
+  .bg:nth-child(3n) {
+    margin: 0 auto;
+  }
+  .img1, .img3, .img5 {
+    display: none;
+  }
+
+  .threes {
+    width: 90%;
+  }
+  .threes p {
+    margin-bottom: 10px;
+  }
+  .three {
+    float: none;
+    margin: 0 auto;
+  }
+
+
+  .profiles {
+    width: 90%;
+    text-align: center;
+  }
+
+  .mines {
+    text-align: center;
+  }
+  .mi, .mine {
+    float: none;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .maru {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .last {
+    width: 90%;
+  }
+  .text, .sns {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .left-contact-content{
+    width: 100%;
+  }
+
+  .right-contact-content{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .last h3 {
+    margin-top: 20px;
+  }
+  .sns i {
+    font-size: 50px;
+    margin-right: 8px;
+}
+
+
+}

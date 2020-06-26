@@ -1,0 +1,330 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  letter-spacing: 1.5px;
+  margin: 0;
+  font-family: Circular, -apple-system, system-ui, Roboto, "Helvetica Neue", sans-serif;
+  color: #000000;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+#portfolio h2::after, #feature h2::after, #profile h2::after, #contact h2::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #EC715F;
+}
+
+#portfolio h2, #feature h2, #profile h2, #contact h2 {
+  font-size: 32px;
+  color: #000000;
+  margin: 0px;
+  padding-top: 90px;
+}
+
+/* header */
+header {
+  height: 70px;
+  background-color: #EC715F;
+  color: #fafafa;
+}
+header .fa-bars {
+  display: none;
+}
+
+.header-img {
+  float: left;
+  height: 70px;
+}
+
+header nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav li {
+  float: left;
+  line-height: 70px;
+  padding: 0 30px;
+}
+
+nav a {
+  color: #fafafa;
+}
+
+/* mainvisual */
+#mainvisual {
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-position: center;
+  background-size: cover;
+  color: #fafafa;
+  text-align: center;
+}
+
+#mainvisual h1 {
+  margin: 0 0 10px;
+  padding-top: 200px;
+  font-size: 64px;
+}
+
+#mainvisual p {
+  font-size: 20px;
+  margin: 0;
+}
+
+/* portfolio*/
+#portfolio {
+  background-color: #eceff1;
+  text-align: center;
+}
+
+#portfolio p {
+  padding: 30px 0;
+  margin: 0
+}
+
+.group {
+  width: 920px;
+  margin: 0 auto;
+  padding: 0 0 90px;
+}
+
+.bg {
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px 0 0;
+  float: left;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg:nth-child(-n+3) {
+  margin-top: 0;
+}
+
+.bg:nth-child(3n) {
+  margin-right: 0;
+}
+
+.img1 {
+  background-image: url(img/sketch.jpg);
+}
+
+.img2 {
+  background-image: url(img/websuku.png);
+}
+
+.img3 {
+  background-image: url(img/write.jpg);
+}
+
+.img4 {
+  background-image: url(img/webcamp.png);
+}
+
+.img5 {
+  background-image: url(img/talk.jpg);
+}
+
+.img6 {
+  background-image: url(img/webcamp-mother.png);
+}
+
+/* feature */
+.features {
+  text-align: center;
+}
+
+.features p {
+  padding: 30px 0;
+  margin: 0;
+  color: #000000;
+}
+
+.threes {
+  margin: 0 auto;
+  width: 980px;
+  padding: 0 0 90px 0;
+}
+
+.threes h3 {
+  text-align: center;
+}
+
+.three {
+  width: 320px;
+  float: left;
+  padding-right: 10px;
+}
+
+.three:last-child {
+  padding-right: 0;
+}
+
+.three i {
+  font-size: 60px;
+  display: block;
+  text-align: center;
+}
+
+.three h3 {
+  font-size: 20px;
+  color: #000000;
+  margin: 10px 0;
+}
+
+.three p {
+  color: #000000;
+}
+
+/* profile */
+#profile {
+  color: #000000;
+  background-color: #eceff1;
+  padding-bottom: 90px;
+}
+
+#profile h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.left p {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.right p {
+  margin-top: 0;
+}
+
+.profiles {
+  text-align: center;
+  margin: 0 auto 30px;
+}
+
+.profiles p {
+  margin: 30px 0;
+}
+
+
+.maru {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.mi {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.mine {
+  width: 50%;
+  float: right;
+}
+
+/* Contact */
+#contact {
+  padding-bottom: 90px;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact p {
+  padding: 30px 0;
+  margin: 0;
+  color: #000000;
+  text-align: center;
+}
+
+.last {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.last h3 {
+  margin-bottom: 5px;
+}
+
+.text {
+  float: left;
+  width: 50%;
+}
+
+.left-contact-content {
+  width: 190px;
+  margin: 0 auto;
+}
+
+.right-contact-content {
+  width: 190px;
+  margin: 0 auto;
+}
+
+.text a {
+  color: #000000;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.sns {
+  width: 50%;
+  float: right;
+}
+
+.sns i {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.sns i:last-child {
+  margin-right: 0;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #EC715F;
+  line-height: 60px;
+}
+footer p {
+  text-align: center;
+  color: #fafafa;
+  font-size: 16px;
+}
